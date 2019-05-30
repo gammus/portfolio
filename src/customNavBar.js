@@ -1,11 +1,8 @@
 import React, { Component } from 'react';
-import { Navbar, Nav } from 'react-bootstrap';
+import { Navbar, Nav,  Collapse, NavbarToggler, NavbarBrand, NavItem,  NavLink,
+    UncontrolledDropdown,  DropdownToggle, DropdownMenu, DropdownItem } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import "bootstrap/js/src/collapse.js";
-
-
-
-
 
 
 
@@ -13,7 +10,7 @@ export default class CustomNavbar extends Component {
     render () {
         return (
             <div>
-            <Navbar bg="light" expand="lg">
+            <Navbar fixed="top" bg="light" expand="lg" > 
   <Navbar.Brand href="#home">Gamile Mustapha</Navbar.Brand>
   <Navbar.Toggle />
   <Navbar.Collapse>
