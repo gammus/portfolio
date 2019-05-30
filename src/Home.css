@@ -68,5 +68,8 @@
 
 .spacer {
     margin-top: 3em;
+}
 
+.bottom-spacer {
+    margin-bottom: 8em;
 }

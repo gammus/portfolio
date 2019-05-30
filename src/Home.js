@@ -21,7 +21,7 @@ export default class Home extends Component {
         <TileRow />
     </Container>
 
-    <Container>
+    <Container className='bottom-spacer'>
         <h2 className="text-center special-heading" >Past Projects</h2>      
         <TileRow />
     </Container>
