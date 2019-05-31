@@ -7,7 +7,7 @@ export default class About extends Component {
         return (
             <div className='box-margin-top'>
         
-                <Container>
+                <Container className='bottom-spacer'>
                     <Row>
                     <Col xs={6} sm={6} >
                         <Image src="/assets/img/profile.png" className="about-profile-pic" />
